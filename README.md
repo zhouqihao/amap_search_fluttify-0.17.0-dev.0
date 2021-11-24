@@ -1,3 +1,9 @@
+# 仅仅改变了android目录下的build.gradle 
+
+     api 'com.amap.api:search:7.7.0' 改为 compileOnly 'com.amap.api:search:7.7.0'
+     所以需要在程序的android目录下的app的build.gradle 配置依赖高德地图的搜索库
+    
+使用方式和原本的一致
 # 高德地图 `搜索`组件
 
 [![pub package](https://img.shields.io/pub/v/amap_search_fluttify.svg)](https://pub.Flutter-io.cn/packages/amap_search_fluttify)
